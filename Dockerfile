@@ -1,11 +1,15 @@
-FROM node:12
+# FROM node:12
 
-COPY [".", "/usr/src/"]
+# # COPY ["package.json","package-lock.json", "/usr/src/"]
+# COPY [".", "/usr/src/"]
 
-WORKDIR /usr/src
+# WORKDIR /usr/src
 
-RUN npm install
+# RUN npm install
 
-EXPOSE 3000
+# # COPY [".", "/usr/src/"]
 
-CMD ["node", "index.js"]
+# EXPOSE 3000
+
+# # CMD ["npx", "nodemon", "index.js"]
+# CMD ["node", "index.js"]
