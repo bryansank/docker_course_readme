@@ -84,6 +84,23 @@ $ docker run -it ubuntu
 ###### --> ___Comment:___ Si no corremos nuestro contenedor con la image con el flag -it este se ejecutara y se apagara al momento.
 ==
 
+##### Si queremos basarnos en UNA IMAGEN creada y asignarle un puerto, corremos los siguientes comandos:
+```
+$ docker stop ID_DeNuestraImagenACopia
+```
+
+```
+$ docker commit ID_DeNuestraImagenACopia nombreDeNuestroNuevoContainer
+```
+
+```
+$ docker run -p 8080:3000 -td nombreDeNuestroNuevoContainer
+```
+
+###### --> ___Comment:___ Usamos los puertos que queramos exponer, siempre debemos tener el contendor detenido, tambien podemos mapearlo, basa tu info aqui.
+https://stackoverflow.com/questions/19335444/how-do-i-assign-a-port-mapping-to-an-existing-docker-container
+==
+
 ##### Cuando corremos un contenedor a partir de una image con ubuntu, podemos notar que esta se cierra, para que esto no suceda, corremos:
 ```
 $ docker run --name UbuntuSiempreCorriendo -d ubuntu tail -f //dev/null
