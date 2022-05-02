@@ -1,7 +1,8 @@
-<h1 style="color:red;">Esto sera un Readme.md de DOCKER</h1>
+<h1 style="color:red;">ESTO ES UN README DE DOCKER, GUIA BASICA DE COMO MOVERTE ENTRE CONTENEDORES. Aka: bkey</h1>
 
 ###### --> ___Comment:___ Primero que todo, debemos saber que el servicio que hace que docker funcione, se llama daemon docker.
-==
+==============================
+==============================
 
 ##### Para iniciar, usaremos una "image" de docker, que son como plantillas:
 ```
