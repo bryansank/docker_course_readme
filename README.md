@@ -163,6 +163,9 @@ $ docker run -d --name dbcontener --mount src=dataVolumen1,dst=/data/db mongo
 ==
 
 # Copiar un archivo y/o Extraer de un Contenedor
+
+<span>Aca usamos la ruta primero a copiar y luego el destino en nuestro container O viceversa.</span>
+
 ```sh
  docker cp texto.txt testubuntu:/pruebacarpeta/ka.txt
  o-
