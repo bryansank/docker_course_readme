@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 nuevaimagen.tar
 .DS_Store
 node_modules
@@ -5,3 +6,8 @@ node_modules
 *.tar
 .tar
 .zip
+=======
+.DS_Store
+node_modules
+*.log
+>>>>>>> 308684d2271bbb47c653f5744c0a3ed8c0cf033d

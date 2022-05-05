@@ -102,6 +102,7 @@ $ docker run -p 8080:3000 -td nombreDeNuestroNuevoContainer
 https://stackoverflow.com/questions/19335444/how-do-i-assign-a-port-mapping-to-an-existing-docker-container
 ==
 
+<<<<<<< HEAD
 ##### Si queremos crear una imagen con algun contenido que hicimos en nuestro contenedor para compartirlo luego, hacemos lo siguiente (EXPORT/IMPORT):
 ```
 $ docker stop ID_DeNuestraImagenACopia
@@ -141,6 +142,8 @@ $ docker run --name containerpersonalizado -di NombreQueLeQueramosPoner:latest
 
 ==
 
+=======
+>>>>>>> 308684d2271bbb47c653f5744c0a3ed8c0cf033d
 ##### Cuando corremos un contenedor a partir de una image con ubuntu, podemos notar que esta se cierra, para que esto no suceda, corremos:
 ```
 $ docker run --name UbuntuSiempreCorriendo -d ubuntu tail -f //dev/null
