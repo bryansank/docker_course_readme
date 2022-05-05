@@ -1,0 +1,7 @@
+nuevaimagen.tar
+.DS_Store
+node_modules
+*.log
+*.tar
+.tar
+.zip
